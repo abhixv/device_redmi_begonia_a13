@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.begonia;
+package co.potatoproject.dt2w.begonia;
 
 import android.app.Service;
 import android.content.ContentResolver;
