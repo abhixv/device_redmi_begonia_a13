@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/catalyst/config/common.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DOESNT_LIKE_FLIPENDO := true
 
@@ -33,7 +33,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := lineage_begonia
+PRODUCT_NAME := catalyst_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
